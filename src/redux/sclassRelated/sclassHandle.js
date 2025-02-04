@@ -11,7 +11,7 @@ import {
     getSubDetailsSuccess,
     getSubDetailsRequest
 } from './sclassSlice';
-const REACT_APP_BASE_URL = "https://smsbackend-7p76.onrender.com";
+const REACT_APP_BASE_URL = "https://smsbackend-5ihw.onrender.com";
 export const getAllSclasses = (id, address) => async (dispatch) => {
     dispatch(getRequest());
 
